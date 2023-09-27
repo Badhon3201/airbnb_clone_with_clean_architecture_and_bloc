@@ -1,0 +1,90 @@
+{
+  "status":true,
+  "message":"Success",
+  "data":{
+    "avg_price":100,
+    "type_of_place":[
+      {
+        "title":"Entire place",
+        "subtitle":"A place all to yourself",
+        "check":false
+      },
+      {
+        "title":"Room",
+        "subtitle":"Your own room, plus access to shared spaces",
+        "check":false
+      },
+      {
+        "title":"Shared room",
+        "subtitle":"A slipping space and common area that may be shared with others",
+        "check":false
+      }
+    ],
+    "rooms_and_beds":[
+      {
+        "name":"Bedrooms",
+        "data":[
+          "Any",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8+"
+        ]
+      },
+      {
+        "name":"Beds",
+        "data":[
+          "Any",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8+"
+        ]
+      },
+      {
+        "name":"Bathrooms",
+        "data":[
+          "Any",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8+"
+        ]
+      }
+    ],
+    "property_type":[
+      {
+        "id":1,
+        "name":"House",
+        "icon":""
+      },
+      {
+        "id":2,
+        "name":"Apartment",
+        "icon":""
+      },
+      {
+        "id":3,
+        "name":"Guest House",
+        "icon":""
+      },
+      {
+        "id":4,
+        "name":"Hotel",
+        "icon":""
+      }
+    ]
+  }
+}

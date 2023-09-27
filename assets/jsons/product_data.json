@@ -1,0 +1,96 @@
+{
+  "status":true,
+  "message":"Success",
+  "data":[
+    {
+      "id":1,
+      "cat_id":1,
+      "location":"Dhaka",
+      "title":"my home",
+      "date_range":"Oct 10-15",
+      "price":100,
+      "review":4.7,
+      "type_of_place":[
+        "Entry place"
+      ],
+      "bed_room":"1",
+      "bed":"1",
+      "bathroom":"1",
+      "property_type":[
+        "Hotel"
+      ],
+      "image_slider":[
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id":2,
+      "cat_id":2,
+      "location":"Rajsahi",
+      "title":"my home",
+      "date_range":"Oct 10-15",
+      "price":100,
+      "review":4.7,
+      "type_of_place":[
+        "Entry place"
+      ],
+      "bed_room":"1",
+      "bed":"1",
+      "bathroom":"1",
+      "property_type":[
+        "Hotel"
+      ],
+      "image_slider":[
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "category":[
+    {
+      "id":1,
+      "name":"Rooms",
+      "icon":""
+    },
+    {
+      "id":2,
+      "name":"Contryside",
+      "icon":""
+    },
+    {
+      "id":3,
+      "name":"Tropical",
+      "icon":""
+    },
+    {
+      "id":4,
+      "name":"Arctic",
+      "icon":""
+    },
+    {
+      "id":5,
+      "name":"Iconic cities",
+      "icon":""
+    },
+    {
+      "id":6,
+      "name":"Amazing pools",
+      "icon":""
+    },
+    {
+      "id":7,
+      "name":"Amazing views",
+      "icon":""
+    },
+    {
+      "id":8,
+      "name":"Beachfront",
+      "icon":""
+    }
+  ]
+}
