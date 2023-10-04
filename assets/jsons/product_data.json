@@ -1,95 +1,45 @@
 {
   "status":true,
   "message":"Success",
-  "data":[
-    {
-      "id":1,
-      "cat_id":1,
-      "location":"Dhaka",
-      "title":"my home",
-      "date_range":"Oct 10-15",
-      "price":100,
-      "review":4.7,
-      "type_of_place":[
-        "Entry place"
-      ],
-      "bed_room":"1",
-      "bed":"1",
-      "bathroom":"1",
-      "property_type":[
-        "Hotel"
-      ],
-      "image_slider":[
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "id":2,
-      "cat_id":2,
-      "location":"Rajsahi",
-      "title":"my home",
-      "date_range":"Oct 10-15",
-      "price":100,
-      "review":4.7,
-      "type_of_place":[
-        "Entry place"
-      ],
-      "bed_room":"1",
-      "bed":"1",
-      "bathroom":"1",
-      "property_type":[
-        "Hotel"
-      ],
-      "image_slider":[
-        "",
-        "",
-        "",
-        ""
-      ]
-    }
-  ],
   "category":[
     {
       "id":1,
-      "name":"Rooms",
+      "name":"120Kg Dedum",
       "icon":""
     },
     {
       "id":2,
-      "name":"Contryside",
+      "name":"125Kg Dedum",
       "icon":""
     },
     {
       "id":3,
-      "name":"Tropical",
+      "name":"100Kg Dedum",
       "icon":""
     },
     {
       "id":4,
-      "name":"Arctic",
+      "name":"120Kg Dedum",
       "icon":""
     },
     {
       "id":5,
-      "name":"Iconic cities",
+      "name":"110Kg Dedum",
       "icon":""
     },
     {
       "id":6,
-      "name":"Amazing pools",
+      "name":"150Kg Dedum",
       "icon":""
     },
     {
       "id":7,
-      "name":"Amazing views",
+      "name":"140Kg Dedum",
       "icon":""
     },
     {
       "id":8,
-      "name":"Beachfront",
+      "name":"130Kg Dedum",
       "icon":""
     }
   ]
