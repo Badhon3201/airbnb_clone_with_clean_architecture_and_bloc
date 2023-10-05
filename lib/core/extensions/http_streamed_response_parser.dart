@@ -7,7 +7,6 @@ import '../exceptions/api_exceptions.dart';
 
 extension ParseJson on http.Response {
   Future<T> parse<T>({T Function(String)? decoder}) async {
-    var body = bodyBytes;
     debugPrint("STATUS CODE: $statusCode");
     debugPrint("BODY: $body");
     if (decoder == null) {

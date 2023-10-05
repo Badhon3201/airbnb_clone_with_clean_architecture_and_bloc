@@ -1,10 +1,11 @@
-import 'package:clean_code_with_bloc/feature/presentation/page/explore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'core/utils/responsive_ui_service.dart';
+import 'feature/presentation/views/category_view.dart';
+import 'injection_container.dart';
 
-import 'core/utils/reponsive_ui_service.dart';
-
-void main() {
+void main() async {
+  init();
   runApp(const MyApp());
 }
 
@@ -14,12 +15,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Clean Architecture',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Explore(),
+      home: const ShipmentView(),
       builder: (context, child) {
         // Your figma design size
         ResponsiveUIService().init(const Size(375, 812), context);
